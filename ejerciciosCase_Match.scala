@@ -1,6 +1,4 @@
-import parte_1.producto
-
-//Ejercicio1 1
+//Ejercicio 1
 case class Producto_case(nombre: String, precio: Double, stock: Int)
 
 def clasificarProducto(producto: Producto_case): String = {
